@@ -6,4 +6,4 @@ async function sleep(millis) {
       rej(err)
     }
   })
-}
+};
