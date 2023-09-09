@@ -10,4 +10,4 @@ var debounce = function(fn, t) {
       }
     }, 1);
   }
-};
+}
