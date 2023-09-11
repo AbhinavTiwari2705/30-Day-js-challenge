@@ -14,4 +14,4 @@ var timeLimit = function(fn, t) {
       clearTimeout(timeout);
     });
   };
-};
+}
