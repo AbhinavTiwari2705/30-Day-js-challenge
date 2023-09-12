@@ -9,7 +9,7 @@ var once = function(fn) {
         c = true
         return fn(...args)
     }
-}
+};
 
 /**
  * let fn = (a,b,c) => (a + b + c)
