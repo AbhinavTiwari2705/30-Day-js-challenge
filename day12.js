@@ -12,6 +12,6 @@ var timeLimit = function(fn, t) {
         reject(err);
       }
       clearTimeout(timeout);
-    });
+    })
   };
 };
