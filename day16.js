@@ -18,6 +18,6 @@ var throttle = function(fn, t) {
     } else {
       fn(...args); // enter the looping phase
       timeoutInProgress = setTimeout(timeoutFunction, t);
-    }
+   }
   }
 };
