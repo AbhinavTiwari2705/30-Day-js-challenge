@@ -14,4 +14,4 @@ var createCounter = function(n) {
  * counter() // 10
  * counter() // 11
  * counter() // 12
- */
+ *
