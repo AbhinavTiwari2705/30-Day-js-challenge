@@ -10,6 +10,7 @@ var timeLimit = function(fn, t) {
         resolve(result);
       } catch(err) {
         reject(err);
+
       }
       clearTimeout(timeout);
     });
